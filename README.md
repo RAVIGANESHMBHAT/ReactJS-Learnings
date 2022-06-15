@@ -32,3 +32,6 @@
 ## Higher Order Components
 
 #### The current comit shows the issues where we are duplicating the code multiple times to achieve the same functionality. (Use Higher Order Function instead)
+#### HOC is used to share common functionality between components.
+#### HOC is a pattern where a function takes a component as an argument and returns a new component.
+
