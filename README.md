@@ -11,3 +11,8 @@
 ## Refs
 
 #### Note: Refs cannot be attached to Functional Components. It can only be attached to Class Components.
+
+## Forwarding Refs
+
+#### The process of automatically passing ref to one of it's children.
+#### Current commit has passing Ref between Class Component and Functional Component
