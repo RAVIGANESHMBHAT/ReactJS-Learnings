@@ -20,6 +20,7 @@ import HoverCounterTwo from "./HoverCounterTwo";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
 import PostList from "./components/PostList";
+import PostForm from "./PostForm";
 
 class App extends Component {
   // state = {
@@ -116,7 +117,8 @@ class App extends Component {
           <ComponentC />
         </UserProvider> */}
 
-        <PostList />
+        {/* <PostList /> */}
+        <PostForm />
       </div>
     );
   }
