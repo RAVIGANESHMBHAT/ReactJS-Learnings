@@ -3,6 +3,8 @@ import React, { Component } from "react";
 // import NavBar from "./components/navbar";
 // import Counters from "./components/counters";
 import LifecycleA from "./components/LifecycleA";
+import MemoComp from "./components/MemoComp";
+import ParentComp from "./components/ParentComp";
 
 class App extends Component {
   // state = {
@@ -55,7 +57,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <LifecycleA />
+        {/* <LifecycleA /> */}
+        <ParentComp/>
       </div>
     );
   }
