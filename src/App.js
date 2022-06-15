@@ -111,9 +111,9 @@ class App extends Component {
           )}
         /> */}
 
-        {/* <UserProvider value='Ravi'> */}
-        <ComponentC />
-        {/* </UserProvider> */}
+        <UserProvider value="Ravi">
+          <ComponentC />
+        </UserProvider>
       </div>
     );
   }
