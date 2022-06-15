@@ -20,3 +20,11 @@
 ## Portals
 
 #### It provides a way to render children into a DOM node that exists outside the DOM Hierarchy of the parent component. In index.html we have, <div id="root"></div> and in index.js we have, ReactDOM.render(<App />, document.getElementById('root'));. In this case every single React component falls under the root element. The current commit has the implementation of adding a component outside the root.
+
+## Error Boundary
+
+#### Two lifecycle methods are, static getDerivedStateFromError(error) and componentDidCatch(error, info)
+#### Error Boundary is a class component that implements either one or both of the lifecycle methods getDerivedStateFromError or componentDidCatch.
+#### getDerivedStateFromError -> used to render a fallback UI after an error is thrown
+#### componentDidCatch -> used to log the error information
+#### Note: Inside event handlers like 'onClick', we cannot use Error Handlers rather we must go with try-catch
