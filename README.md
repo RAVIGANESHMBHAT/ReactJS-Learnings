@@ -16,3 +16,7 @@
 
 #### The process of automatically passing ref to one of it's children.
 #### Current commit has passing Ref between Class Component and Functional Component
+
+## Portals
+
+#### It provides a way to render children into a DOM node that exists outside the DOM Hierarchy of the parent component. In index.html we have, <div id="root"></div> and in index.js we have, ReactDOM.render(<App />, document.getElementById('root'));. In this case every single React component falls under the root element. The current commit has the implementation of adding a component outside the root.
