@@ -27,4 +27,8 @@
 #### Error Boundary is a class component that implements either one or both of the lifecycle methods getDerivedStateFromError or componentDidCatch.
 #### getDerivedStateFromError -> used to render a fallback UI after an error is thrown
 #### componentDidCatch -> used to log the error information
-#### Note: Inside event handlers like 'onClick', we cannot use Error Handlers rather we must go with try-catch
+#### Note: Inside event handlers like 'onClick', we cannot use Error handlers rather we must go with try-catch
+
+## Higher Order Components
+
+#### The current comit shows the issues where we are duplicating the code multiple times to achieve the same functionality. (Use Higher Order Function instead)
