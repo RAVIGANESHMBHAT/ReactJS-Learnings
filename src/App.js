@@ -17,6 +17,8 @@ import User from "./components/User";
 import Counter from "./components/Counter";
 import ClickCounterTwo from "./components/ClickCounterTwo";
 import HoverCounterTwo from "./HoverCounterTwo";
+import ComponentC from "./components/ComponentC";
+import { UserProvider } from "./components/userContext";
 
 class App extends Component {
   // state = {
@@ -92,7 +94,7 @@ class App extends Component {
         {/* <ClickCounter2 />
         <HoverCounter2 />
         <User render={(isLoggedIn) => isLoggedIn ? "Ravi" : "Guest"} /> */}
-        <Counter
+        {/* <Counter
           render={(count, incrementCount) => (
             <ClickCounterTwo
               count={count}
@@ -107,7 +109,11 @@ class App extends Component {
               incrementCount={incrementCount}
             />
           )}
-        />
+        /> */}
+
+        <UserProvider value='Ravi'>
+          <ComponentC />
+        </UserProvider>
       </div>
     );
   }

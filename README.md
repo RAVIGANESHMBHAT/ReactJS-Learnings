@@ -41,3 +41,8 @@
 #### used to share common functionality between components.
 #### 'Render prop' refers to a technique for sharing code between React Components using a prop whose value is a function
 #### In the current commit, App.js uses Counter.js which gets 'render' [can be any name] through props. The Counter.js just calls the render method by passing count and incrementCount which returns the ClickCounterTwo.js component.
+
+## React Context
+
+#### Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+#### Steps: Create a userContext.js file and create a context using React.createContext() and also UserProvider, UserConsumer. Wrap the component inside App.js with UerProvider by giving some property-value to the UserProvider which must be accessible from the child components. Wrap any child component by UserConsumer and use the value which was passed by UserProvider.
