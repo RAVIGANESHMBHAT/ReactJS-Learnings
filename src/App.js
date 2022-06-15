@@ -13,6 +13,10 @@ import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
 import ClickCounter from "./components/ClickCounter";
 import HoverCounter from "./components/HoverCounter";
+import User from "./components/User";
+import Counter from "./components/Counter";
+import ClickCounterTwo from "./components/ClickCounterTwo";
+import HoverCounterTwo from "./HoverCounterTwo";
 
 class App extends Component {
   // state = {
@@ -83,8 +87,27 @@ class App extends Component {
         <ErrorBoundary>
           <Hero heroName="Joker" />
         </ErrorBoundary> */}
-        <ClickCounter />
-        <HoverCounter />
+        {/* <ClickCounter />
+        <HoverCounter /> */}
+        {/* <ClickCounter2 />
+        <HoverCounter2 />
+        <User render={(isLoggedIn) => isLoggedIn ? "Ravi" : "Guest"} /> */}
+        <Counter
+          render={(count, incrementCount) => (
+            <ClickCounterTwo
+              count={count}
+              incrementCount={incrementCount}
+            />
+          )}
+        />
+        <Counter
+          render={(count, incrementCount) => (
+            <HoverCounterTwo
+              count={count}
+              incrementCount={incrementCount}
+            />
+          )}
+        />
       </div>
     );
   }

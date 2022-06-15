@@ -31,7 +31,13 @@
 
 ## Higher Order Components
 
-#### The current comit shows the issues where we are duplicating the code multiple times to achieve the same functionality. (Use Higher Order Function instead)
+#### The current commit shows the issues where we are duplicating the code multiple times to achieve the same functionality. (Use Higher Order Function instead)
 #### HOC is used to share common functionality between components.
 #### HOC is a pattern where a function takes a component as an argument and returns a new component.
-### Note: While using HOC, keep in mind to include the rest of the properties in the WrappedComponent by adding {...this.props}
+#### Note: While using HOC, keep in mind to include the rest of the properties in the WrappedComponent by adding {...this.props}
+
+## Render Props
+
+#### used to share common functionality between components.
+#### 'Render prop' refers to a technique for sharing code between React Components using a prop whose value is a function
+#### In the current commit, App.js uses Counter.js which gets 'render' [can be any name] through props. The Counter.js just calls the render method by passing count and incrementCount which returns the ClickCounterTwo.js component.
