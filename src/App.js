@@ -19,6 +19,7 @@ import ClickCounterTwo from "./components/ClickCounterTwo";
 import HoverCounterTwo from "./HoverCounterTwo";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
+import PostList from "./components/PostList";
 
 class App extends Component {
   // state = {
@@ -111,9 +112,11 @@ class App extends Component {
           )}
         /> */}
 
-        <UserProvider value="Ravi">
+        {/* <UserProvider value="Ravi">
           <ComponentC />
-        </UserProvider>
+        </UserProvider> */}
+
+        <PostList />
       </div>
     );
   }
