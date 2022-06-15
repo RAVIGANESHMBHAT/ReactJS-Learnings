@@ -7,3 +7,7 @@
 ## React.memo()
 
 #### We can use the Pure Components in Class Component. To provide the same functionality in Functional Component, we use, export default React.memo(FunctionComponentName) in the Functional Component.
+
+## Refs
+
+#### Note: Refs cannot be attached to Functional Components. It can only be attached to Class Components.

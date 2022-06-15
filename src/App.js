@@ -6,6 +6,7 @@ import LifecycleA from "./components/LifecycleA";
 import MemoComp from "./components/MemoComp";
 import ParentComp from "./components/ParentComp";
 import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
 
 class App extends Component {
   // state = {
@@ -60,7 +61,8 @@ class App extends Component {
       <div className="App">
         {/* <LifecycleA /> */}
         {/* <ParentComp/> */}
-        <RefsDemo/>
+        {/* <RefsDemo/> */}
+        <FocusInput/>
       </div>
     );
   }
