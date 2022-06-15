@@ -6,4 +6,4 @@
 
 ## React.memo()
 
-#### We can use the Pure Components in Class Component. To provide the same functionality in Function Component, we use, export default React.memo(FunctionComponentName) in the Function Component.
+#### We can use the Pure Components in Class Component. To provide the same functionality in Functional Component, we use, export default React.memo(FunctionComponentName) in the Functional Component.

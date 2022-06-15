@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import LifecycleA from "./components/LifecycleA";
 import MemoComp from "./components/MemoComp";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
 
 class App extends Component {
   // state = {
@@ -58,7 +59,8 @@ class App extends Component {
     return (
       <div className="App">
         {/* <LifecycleA /> */}
-        <ParentComp/>
+        {/* <ParentComp/> */}
+        <RefsDemo/>
       </div>
     );
   }
