@@ -45,7 +45,7 @@
 ## React Context
 
 #### Context provides a way to pass data through the component tree without having to pass props down manually at every level.
-#### Steps: Create a userContext.js file and create a context using React.createContext() and also UserProvider, UserConsumer. Wrap the component inside App.js with UerProvider by giving some property-value to the UserProvider which must be accessible from the child components. Wrap any child component by UserConsumer and use the value which was passed by UserProvider.
+#### Steps: Create a userContext.js file and create a context using React.createContext() and also UserProvider, UserConsumer. Wrap the component inside App.js with UserProvider by giving some property-value to the UserProvider which must be accessible from the child components. Wrap any child component by UserConsumer and use the value which was passed by UserProvider.
 #### To set default value to the context, it must be passed inside the createContext method. The default value will be used by the UserConsumer when there is no matching UserProvider above in the Component tree.
 
 ## React and HTTP
